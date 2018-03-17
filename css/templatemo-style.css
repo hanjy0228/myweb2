@@ -1,11 +1,3 @@
-/*
-
-Lavish
-
-http://www.templatemo.com/preview/templatemo_458_lavish
-		
-*/
-
 body
 	{
 		  background: #000000;
@@ -58,6 +50,7 @@ h1,h2,h3,h4,h5
     {
         padding-top: 100px;
         padding-bottom: 120px;
+        z-index: 1;
     }
 /* end all section */
 
@@ -203,6 +196,7 @@ h1,h2,h3,h4,h5
         margin-top: 40px;
         padding-top: 18px;
         transition: all 0.4s ease-in-out;
+        z-index: 999;
     }
 #home .btn:hover
     {
@@ -211,47 +205,43 @@ h1,h2,h3,h4,h5
     }
 /* end home */
 
-/* start work */
-#work
-    {
-        background: #1a1a1a;
-    }
-#work h2
-    {
-        text-align: center;
-    }
-
-#work .media
-    {
-      margin-top: 30px;
-    }
-	
-#work .media .fa
-    {
-        border: 2px solid #ffffff;
-        border-radius: 50%;
-        color: #D43F52;
-        font-size: 24px;
-        margin-right: 24px;
-        width: 60px;
-        height: 60px;
-        line-height: 55px;
-        text-align: center;
-        vertical-align: middle;
-        transition: all 0.4s ease-in;
-    }
-#work .media .fa:hover
-    {
-        background: #ffffff;
-        cursor: pointer;
-    }
-#work .media .media-heading
-    {
-        font-weight: 600;
-        font-size: 20px;
-        padding-bottom: 10px;
-    }
-/* end work */
+/* start portfolio */
+#portfolio
+{
+    background: #1a1a1a;
+    text-align: center;
+}
+#portfolio h2
+{
+    padding-bottom: 30px;
+}
+#portfolio .portfolio-thumb
+{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+#portfolio .portfolio-thumb .portfolio-overlay
+{
+    background: #D43F52;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 60px;
+    transition: all 0.4s ease-in-out;
+}
+#portfolio .portfolio-thumb:hover .portfolio-overlay
+{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+/* end portfolio */
 
 /* start about */
 #about h4
@@ -285,45 +275,13 @@ h1,h2,h3,h4,h5
         font-weight: bold;
         float: right;
     }
+#about img
+    {
+    width: 500px;
+    height: 300px;
+    /*text-align:center*/
+    }
 /* end about */
-
-/* start portfolio */
-#portfolio
-    {
-        background: #1a1a1a;
-        text-align: center;
-    }
-#portfolio h2
-    {
-        padding-bottom: 30px;
-    }
-#portfolio .portfolio-thumb
-    {
-        overflow: hidden;
-        position: relative;
-        margin-bottom: 30px;
-    }
-#portfolio .portfolio-thumb .portfolio-overlay
-    {
-        background: #D43F52;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        padding-top: 60px;
-        transition: all 0.4s ease-in-out;
-    }
-#portfolio .portfolio-thumb:hover .portfolio-overlay
-    {
-        cursor: pointer;
-        opacity: 0.8;
-        transform: scale(0.9);
-    }
-/* end portfolio */
 
 /* start contact */
 
