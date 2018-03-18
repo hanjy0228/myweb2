@@ -1,0 +1,20 @@
+
+	/* Carousel */
+	/*.carousel-example {*/
+		/*padding: 20px 0 50px 0;*/
+	/*}*/
+	/*.carousel-control {*/
+		/*width: 50px;*/
+		/*height: 50px;*/
+		/*top: 50%;*/
+		/*transform: translateY(-50%);*/
+		/*bottom: auto;*/
+		/*font-size: 30px;*/
+		/*text-align: center;*/
+		/*opacity: 1;*/
+	/*}*/
+	a.carousel-control.left, a.carousel-control.right {
+		background-image: none;
+		opacity: 1;
+		text-align: center;
+	}
