@@ -16,21 +16,21 @@ bgImage.onload = function () {
 };
 bgImage.src = "img/background.png";
 
-// Hero image美少女战士
+//
 var heroReady = false;
 var heroImage = new Image();
 heroImage.onload = function () {
     heroReady = true;
 };
-heroImage.src = "img/hero.png";
+heroImage.src = "img/hero1.png";
 
-// Monster image怪物
+//
 var monsterReady = false;
 var monsterImage = new Image();
 monsterImage.onload = function () {
     monsterReady = true;
 };
-monsterImage.src = "img/monster.png";
+monsterImage.src = "img/monster1.png";
 
 // Game objects
 var hero = {
@@ -88,6 +88,7 @@ var update = function (modifier) {
 };
 
 // Draw everything
+
 var render = function () {
     if (bgReady) {
         ctx.drawImage(bgImage, 0, 0);

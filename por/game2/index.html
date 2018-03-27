@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta charset="utf-8"/>
+    <title>Pits</title>
+    <link rel="stylesheet" type="text/css" href="css/pits.min.css" />
+    <script type="text/javascript" src="js/pits.min.js"></script>
+  </head>
+  <body onload="init()" onresize="resizeWin()">
+    <div id="main-container">
+      <div id="sky-container">
+        <div id="logo" class="smooth">
+          <img src="img/pits.png" />
+        </div>
+        <div id="score-container" class="hide smooth transparent">
+          <img id="score-img" src="img/bone.png">
+          <span id="score" class="smooth">0</span>
+        </div>
+        <div id="filling-one" class="filling hide smooth"></div>
+        <div id="filling-two" class="filling"></div>
+      </div>
+      <div id="earth-container">
+        <div id="pit-one" class="pit smooth"></div>
+        <div id="pit-two" class="pit"></div>
+        <div id="player" class="smooth"><img src="img/dog.png" /></div>
+        <div id="award" class="smooth"><img src="img/bone.png" /></div>
+      </div>
+      <div id="nav-container">
+        <div class="nav-block" id="nav-intro">
+          <div class="nav-en">HOW</div>
+          <div class="nav-zh">玩法</div>
+        </div>
+        <div class="nav-block" id="nav-start">
+          <div class="nav-en">START</div>
+          <div class="nav-zh">开始</div>
+        </div>
+      </div>
+      <div id="result-container" class="hide transparent smooth">
+        <div class="result-inner">
+          <div class="result-inner-cell">
+            <div class="result-wrapper">
+              <div class="result-icon">
+                <img src="img/bone.png" id="result-icon-img" />
+              </div>
+              <div id="result-score"></div>
+              <div id="result-msg"></div>
+              <div class="result-buttons">
+                <span class="result-button smooth" id="replay">Replay</span>
+                <span class="result-button smooth" id="home">Home</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="intro-container" class="hover-container smooth">
+        <div class="close-button" id="close-intro">&times;</div>
+        <div class="intro-scroll">
+          <div class="intro-pics-container">
+            <div class="intro-inner">
+              <span><img src="img/intro-1.png"/></span>
+              <span><img src="img/intro-2.png"/></span>
+              <span><img src="img/intro-3.png"/></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
