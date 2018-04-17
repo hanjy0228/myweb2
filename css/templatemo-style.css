@@ -113,7 +113,7 @@ h1,h2,h3,h4,h5
   z-index: 2;
   display: block;
   opacity: 1;
-  
+
   -webkit-transform: rotateY(180deg) translate3d(0,0,0);
   -moz-transform: rotateY(180deg) translate3d(0,0,0);
   -ms-transform: rotateY(180deg) translate3d(0,0,0);
@@ -154,7 +154,7 @@ h1,h2,h3,h4,h5
 }
 /* end simpletextrotator */
 
-/* start home */       
+/* start home */
 #home
 	{
         background: url('../images/home-bg.jpg');
@@ -318,7 +318,7 @@ h1,h2,h3,h4,h5
     {
       padding-bottom: 18px;
     }
-	
+
 #contact .contact-title
     {
 		font-size: 24px;
